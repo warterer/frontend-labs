@@ -1,0 +1,30 @@
+body {
+    margin: 40px;
+}
+
+.flag {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: #da291c;
+}
+
+.flag::before,
+.flag::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 165px;
+    height: 57px;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+
+.flag::before {
+    transform: translate(-50%, -50%);
+}
+
+.flag::after {
+    transform: translate(-50%, -50%) rotate(90deg);
+}
