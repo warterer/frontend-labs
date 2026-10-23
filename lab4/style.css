@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.mark-a {
+  background-color: #ffe08a;
+  color: #1a1a1a;
+}
+
+.mark-b {
+  background-color: #1f3a5f;
+  color: #ffffff;
+}
+
+#gallery {
+  overflow-x: auto;
+}
+
+#gallery a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#controls {
+  margin-top: 10px;
+}
+
+#controls button {
+  padding: 6px 14px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+#controls button:disabled {
+  cursor: not-allowed;
+}
