@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Реуцький, HTML5, CSS3, JS, лабораторна робота 6, ІМ-41"
+    />
+    <meta name="description" content="Лабораторна робота №6" />
+    <title>Реуцький А.О. ІМ-41</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Random User (варіант 12)</h1>
+    <button id="loadBtn" type="button">Отримати користувача</button>
+
+    <div id="card" class="card" hidden>
+      <img id="picture" alt="Фото користувача" width="128" height="128" />
+      <table>
+        <tr>
+          <th>Країна</th>
+          <td id="country"></td>
+        </tr>
+        <tr>
+          <th>Email</th>
+          <td id="email"></td>
+        </tr>
+        <tr>
+          <th>Телефон</th>
+          <td id="phone"></td>
+        </tr>
+        <tr>
+          <th>Координати</th>
+          <td id="coordinates"></td>
+        </tr>
+      </table>
+    </div>
+    <p id="status" class="status"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
